@@ -1,0 +1,11 @@
+# PSNope blacklist
+# blacklisted apps
+# * means accept patitial match
+# format:
+# ID Name
+
+PSNOPE000 PSNope*
+NPXS09386 PSNope*
+BLES80868 MultiMan*
+HTSS00003 Showtime
+PRXLOADER PRX LOADER

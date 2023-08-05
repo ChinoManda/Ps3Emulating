@@ -1,0 +1,60 @@
+#############################
+# PSNope Configuration File #
+#############################
+
+#------- LOG OPTIONS -------
+debug_log=0
+log_file=/dev_usb000/psnope/log.txt
+show_dialog=0
+#----- END LOG OPTIONS -----
+
+#------- PSN OPTIONS -------
+# Spoof IDPS (temporary)
+spoof_idps=0
+idps=00000001008500FFFFFFFFFFFFFFFFFF
+
+# Spoof PSID (temporary)
+spoof_psid=0
+psid=DEADBEEFDEADBEEFDEADBEEFDEADBEEF
+
+# Remove CFW Syscalls (temporary)
+remove_cfw_syscalls=1
+
+# Cleanup history files
+clean_history=1
+
+# Delete history files
+delete_history=0
+
+# Community log files 
+# do not use with spoofed psid
+
+# Blacklisted apps
+blacklist_path=/dev_usb000/psnope/blacklist.txt
+
+# Remove blacklisted apps from log
+clean_community=0
+
+# Print community log files to file (debug_log=1) and/or tty (dex)
+print_community=1
+
+#----- END PSN OPTIONS -----
+
+
+
+
+#----- LICENSE OPTIONS -----
+#create licenses
+create_rifs=0
+
+# user account number (e.g. 00000001) to generate rif files in
+# as seen in /dev_hdd0/home/
+user_account=1
+
+# use spoofed idps for rifs
+use_spoofed_idps=0
+
+#path to read rap/klic files from
+rap_path=/dev_usb000/psnope/lic/
+
+#--- END LICENSE OPTIONS ---

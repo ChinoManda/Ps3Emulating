@@ -1,0 +1,38 @@
+ps2classic - (c) 2013 by ps3dev-net
+http://gitorious.ps3dev.net/ps2classic
+
+usage:
+
+  iso:
+
+    ps2classic d [cex/dex] [klicensee] [encrypted image] [out data] [out meta]
+    ps2classic e [cex/dex] [klicensee] [iso] [out data] [real out name] [CID]
+
+  vmc:
+    ps2classic vd [cex/dex] [vme file] [out vmc] [(eid root key)]
+    ps2classic ve [cex/dex] [vmc file] [out vme] [(eid root key)]
+
+Example:
+./ps2classic e cex gta_vc.key ISO.BIN ISO.BIN.ENC_mod ISO.BIN.ENC UP9000-NPUD20552_00-0000000000000000
+
+
+PS2Classics_GUI - (c) 2018 by Aldo Vargas
+http://aldostools.org
+
+
+Pre-requisites
+--------------
+1. Copy your rap files in scetool/raps to decrypt the ISO.BIN.ENC
+2. Install the rap 2P0001-PS2U10000_00-0000111122223333.rap using reActPSN
+
+The GUI requires to have installed the following VB5 Runtime:
+http://download.microsoft.com/download/vb50pro/utility/1/win98/en-us/msvbvm50.exe
+
+
+For more information visit CaptainCPS-X's Guide: Convert any PS2 ISO to PS2 Classic
+http://www.ps3hax.net/showthread.php?t=53694
+
+Special thanks to flatz, Ing Pereira, ps3dev-net team, ifcaro, CaptainCPS-X and other anonymous talented devs ;)
+
+
+CONFIGS were taken from https://github.com/Zarh/ManaGunZ/tree/master/pkgfiles/USRDIR/sys/CONFIG
